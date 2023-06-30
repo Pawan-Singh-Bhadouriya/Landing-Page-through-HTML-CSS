@@ -130,3 +130,67 @@ html,body{
 .feature img{
     height: 75px;
 }
+/* -------------------responsive------------------- */
+@media screen and (max-width:390px) {
+    #nav #links {
+        display: none;
+    }
+
+    #heading h1 {
+        font-size: 35px;
+    }
+
+    #main {
+        position: relative;
+        left: 27px;
+    }
+
+    .container {
+        height: 189%;
+    }
+
+    #details {
+        margin-top: -23px;
+    }
+
+    #dleft {
+        width: 48%;
+    }
+
+    #dleft h1 {
+        font-size: 25px;
+    }
+
+    #dright {
+        width: 48%;
+    }
+
+    .feature img {
+        height: 48px;
+        position: relative;
+        left: -8px;
+    }
+
+    .fdets h3 {
+        font-size: 16px;
+        position: relative;
+        left: -26px;
+    }
+
+    .fdets p {
+        position: relative;
+        left: -47px;
+        width: 180%;
+        text-align: center;
+        margin: 17px -18px;
+    }
+
+    #details #dleft p {
+        width: 101%;
+        font-size: 15px;
+    }
+
+    #details #smline {
+        width: 103%;
+    }
+}
